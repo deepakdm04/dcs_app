@@ -29,7 +29,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
+                Intent myint = new Intent(MainActivity.this, Register.class);
+                startActivity(myint);
             }
         });
     }
